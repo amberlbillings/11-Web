@@ -65,6 +65,10 @@ h3 {
     margin-right: 20px;
 }
 
+.col-lg-8 {
+    margin-bottom: 40px;
+}
+
 p {
     line-height: 2em;
     color: #505050;
@@ -109,8 +113,8 @@ html, body {
 }
 
 .col-lg-4 img {
+    width: 100%;
     margin-top: 20px;
-    float: left;
 }
 
 .comparison img {
@@ -138,5 +142,9 @@ tr:nth-child(even) {
     .dropdown-menu {
         border: 0px;
         border-radius: 0px;
+    }
+
+    .col-lg-8 {
+        margin-bottom: 0px;
     }
 }
